@@ -10,13 +10,13 @@ var core_1 = require("@angular/core");
 var HomepageComponent = (function () {
     function HomepageComponent() {
     }
+    HomepageComponent = __decorate([
+        core_1.Component({
+            selector: 'main-app',
+            template: '<h1>Freelance Bootcamp Dashboard</h1>'
+        })
+    ], HomepageComponent);
     return HomepageComponent;
 }());
-HomepageComponent = __decorate([
-    core_1.Component({
-        selector: 'main-app',
-        template: '<h1>Freelance Bootcamp Dashboard</h1>'
-    })
-], HomepageComponent);
 exports.HomepageComponent = HomepageComponent;
 //# sourceMappingURL=homepage.component.js.map
