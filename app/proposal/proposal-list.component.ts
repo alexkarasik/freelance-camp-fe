@@ -32,5 +32,3 @@ export class ProposalListComponent implements OnInit {
 				);
 	}
 }
-
-}
