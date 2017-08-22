@@ -18,8 +18,8 @@ export class DocumentsComponent implements OnInit {
   mode = "Observable";
 
   constructor(
-    private documentService: DocumentService;
-  ) {}
+  		private documentService: DocumentService;
+  	) {}
 
   ngOnInit() {
     let timer = Observable.timer(0, 5000);
