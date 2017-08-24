@@ -1,3 +1,4 @@
+
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs/Rx';
 import { Document } from './document';
@@ -17,7 +18,7 @@ export class DocumentsComponent implements OnInit {
 	mode = "Observable";
 
 	constructor(
-		private documentService: DocumentService;
+		private documentService: DocumentService
 	) {}
 
 	ngOnInit() {
